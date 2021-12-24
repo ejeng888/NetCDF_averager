@@ -10,6 +10,4 @@ To run the script:
 <br />
 If you encounter an error with the netCDF4 library, then run pip install netCDF4 in command line.
 
-The script may not work the way you expect if running with vectors or cumulative variables such as precipitation
-
 Note: config file must be in same directory as main script and must be named netcdf_averager_config
