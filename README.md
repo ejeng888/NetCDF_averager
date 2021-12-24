@@ -5,6 +5,7 @@ This script will calculate the atmospheric average for variables in a netCDF fil
 To run the script:
 <br />
    > . ssmuse-sh -d /fs/ssm/eccc/cmd/cmde/surge/surgepy/1.0.8/
+   > 
    > python netcdf_averager.py
 <br />
 If you encounter an error with the netCDF4 library, then run pip install netCDF4 in command line.
