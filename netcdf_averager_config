@@ -1,0 +1,12 @@
+[Main Variables]
+
+directory = /home/sice500/data/ords/CICE_data/forcing/gx1/JRA55/8XDAILY/
+save_path = /home/eje000/Desktop/test
+
+[Vars]
+vars = airtmp,spchmd,ttlpcp
+long_name = Air temperature,Specific Humidity,Precipitation
+units = Kelvin,kg/kg,kg m-2 s-1
+
+#Ensure that vars is the variable name that appears when you ncdump the source files
+#long_name and units can technically be whatever you want, but for consistency, follow the naming procedure in the source netCDF files
